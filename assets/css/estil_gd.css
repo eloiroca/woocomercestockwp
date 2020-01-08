@@ -1,0 +1,717 @@
+@font-face {
+    /*font-family: Urba;
+    src: url("../fonts/Urba.ttf") format("opentype");*/
+}
+
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+#capsalera{
+    font-family: Urba; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+    margin-top: 10px ;
+    text-align: center;
+    width: 95%;
+}
+#cos{
+    margin-top: 60px;
+    border: 1px solid red;
+    border-radius: 25px;
+    width: 95%;
+}
+.descripcio-arxiu{
+    display: block !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    z-index: -22 !important;
+}
+
+.element-directori{
+    word-break: break-all !important;
+    word-wrap: break-word !important;
+    height: 90px !important;
+    max-width: 150px !important;
+    font-family: 'Asap', sans-serif !important;
+}
+.span_ping{
+    color:#3498DB;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 19px;
+    cursor: pointer;
+}
+.taula_documents {
+  width: 100% !important;
+  border-collapse: collapse !important;
+}
+/* Zebra striping */
+.tr_taula_documents.o:nth-of-type(odd) {
+  background: #eee !important;
+  z-index: -1 !important;
+}
+.th_taula_documents {
+  background: #333 !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+.td_taula_documents, .th_taula_documents {
+  padding: 6px !important;
+  border: 1px dashed #89C4F2 !important;
+  text-align: left !important;
+  z-index: 55 !important;
+}
+
+.count-input {
+  position: relative !important;
+  left: 0px !important;
+  max-width: 165px !important;
+  margin-bottom: 10px !important;
+}
+.count-input input {
+  width: 100% !important;
+  height: 36.92307692px !important;
+  border: 1px solid #000 !important;
+  border-radius: 0.25rem !important;
+  background: none !important;
+  text-align: center !important;
+}
+.count-input input:focus {
+  outline: none !important;
+}
+.count-input .incr-btn {
+  display: block ;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+  top: 50%;
+  right: 0;
+  margin-top: -15px;
+  text-decoration:none;
+}
+.count-input .incr-btn:first-child {
+  right: auto;
+  left: 0;
+  top: 46%;
+}
+.count-input.count-input-sm {
+  max-width: 125px;
+}
+.count-input.count-input-sm input {
+  height: 36px;
+}
+.count-input.count-input-lg {
+  max-width: 200px;
+}
+.count-input.count-input-lg input {
+  height: 70px;
+  border-radius: 3px;
+}
+
+.foto-arxiu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    z-index: -22;
+}
+
+.logo_documental_pluguin{
+
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+}
+
+#titol_vista_pluguin{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .8);
+    width: 90%;
+    border: 2px solid #337ab7 !important;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#cos_vista_pluguin{
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 90%;
+
+  }
+
+#contenedor_del_cos{
+
+    z-index: 1;
+}
+.cos_primerPerfil_marges{
+  border: 2px solid #337ab7 !important;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#parametres_pluguins{
+
+    padding: 10px;
+    display: table;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    margin: 0 auto;
+    margin-bottom: 9px !important;
+
+}
+
+#backups_tipus{
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: .25rem;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    text-align: center;
+    margin-bottom: 9px !important;
+}
+
+.btn.btn-primary.btn-lg.btn-block.boto_backup{
+    color: #AF4FD0 !important;
+    border-color: #AF4FD0 !important;
+
+}
+
+.progress{
+    margin-top: 10px;
+}
+
+.progress-bar-animated{
+    background-color: #AF4FD0 !important;
+}
+
+.progress_pc_eloi{
+    display: none;
+}
+
+.progress_codi{
+    display: none;
+}
+
+.progress_bd{
+    display: none;
+}
+
+.dades_backups{
+
+    word-wrap: break-word;
+}
+
+.info_dades_backups{
+    color: #AF54D4;
+}
+
+.separador{
+  width: 100%;
+  float: right;
+  border: 1px solid #337ab7 !important;
+}
+
+.titol_config_gesta{
+    text-align: center;
+}
+
+
+.titol_parametres, .titol_backups{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px !important;
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+
+
+}
+
+
+#opcions_parametres{
+    margin: 15px;
+    border: 2px solid #337ab7 !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.icona_parametre{
+    width: 22px;
+    margin: 4px 0px 5px 9px;
+    position: absolute;
+}
+
+.input-group-addon {
+
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-image: linear-gradient(to right, #0083B0, #00B4DB) !important;
+  border-image-slice: 1 !important;
+  border-width: 2px !important;
+    font-size: 13px !important;
+    color: white !important;
+    padding-left: 40px !important;
+}
+
+#filtrar {
+    border-image: linear-gradient(to right, #0083B0, #00B4DB);
+    border-image-slice: 1;
+    border-width: 2px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 13px;
+    width: auto;
+    margin-left: -2px;
+}
+
+.btn_guardarParametres{
+    float: right;
+}
+
+.panel-peu{
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  min-height: 60px;
+}
+
+.btn_fitxers{
+  margin: 5px;
+  /*float: right;*/
+  margin-bottom: 10px;
+}
+
+.btn_navegaciofitxers{
+  margin: 5px;
+  /*float: right;*/
+  margin-bottom: 10px;
+}
+
+.btn_pujarFitxers, .btn_eliminarFitxers, .btn_eliminarContrasenya, .btn_afegirContrasenya, .btn_modificarContrasenya, .btn_eliminarAssignacio, .btn_modificarInfoAssignacio, .btn_eliminarInfoAssignacio, .btn_examinarInfoAssignacio, .btn_infoFitxers, .btn_homeFitxers, .btn_guardarFitxers, .btn_infoFitxersAssignacio, .btn_afegirCarpeta, .btn_renombrarFitxers, .btn_actualitzarFitxers, .btn_tirarEndarrera, .btn_renombrarFitxersConfirmar{
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 5px !important;
+}
+
+.btn_renombrarFitxersConfirmar:hover, .btn_modificarInfoAssignacio:hover, .btn_afegirCarpeta:hover, .btn_examinarInfoAssignacio:hover, .btn_eliminarInfoAssignacio:hover, .btn_eliminarAssignacio:hover, .btn_infoFitxersAssignacio:hover, .btn_guardarFitxers:hover, .btn_homeFitxers:hover, .btn_infoFitxers:hover, .btn_pujarFitxers:hover, .btn_pujarFitxers:hover, .btn_eliminarFitxers:hover, .btn_renombrarFitxers:hover, .btn_actualitzarFitxers:hover, .btn_tirarEndarrera:hover{
+  opacity: 0.5;
+}
+.btn_afegirContrasenya:hover, .btn_eliminarContrasenya:hover, .btn_modificarContrasenya:hover{
+  opacity: 0.5;
+}
+
+.href_contrasenya:focus, .btn_afegirContrasenya:focus, .btn_eliminarContrasenya:focus, .btn_modificarContrasenya:focus, .btn_renombrarFitxersConfirmar:focus, .btn_modificarInfoAssignacio:focus, .btn_afegirCarpeta:focus, .btn_examinarInfoAssignacio:focus, .btn_eliminarInfoAssignacio:focus, .btn_eliminarAssignacio:focus, .btn_infoFitxersAssignacio:focus, .btn_homeFitxers:focus, .btn_infoFitxers:focus, .btn_pujarFitxers:focus, .btn_pujarFitxers:focus, .btn_eliminarFitxers:focus, .btn_renombrarFitxers:focus, .btn_actualitzarFitxers:focus, .btn_tirarEndarrera:focus{
+ outline: none !important;
+ box-shadow: none !important;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  height: 25px;
+  width: 25px;
+  border: 2px solid #51C88F;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.li_boleta::before {content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  }
+
+  .modal_pujar_fitxer{
+      border: 2px solid #51C88F;
+      border-radius: 5px;
+      background-color: #D5F5E3;
+      width: 100%;
+      display: none;
+  }
+  .modal_renombrar_fitxer{
+      border: 2px solid #FFC107;
+      border-radius: 5px;
+      background-color: #FCF3CF;
+      width: 100%;
+      display: none;
+  }
+
+  .close{
+      margin-right: 10px;
+  }
+
+  .note {
+    width: 500px;
+    margin: 50px auto;
+    font-size: 1.1em;
+    color: #333;
+    text-align: justify;
+  }
+  #drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 480px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  #drop-area.highlight {
+    border-color: purple;
+  }
+  p {
+    margin-top: 0;
+  }
+  .my-form {
+    margin-bottom: 10px;
+  }
+  #gallery {
+    margin-top: 10px;
+  }
+  #gallery img {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .button:hover {
+    background: #ddd;
+  }
+  #fileElem {
+    display: none;
+  }
+
+.btn-block {
+  text-align: center;
+  display: block !important;
+  border: 2px solid !important;
+  border-color: #C70039 !important;
+  color: #C70039 !important;
+  background-color: white !important;
+  padding: 8px 20px !important;
+  border-radius: 8px !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  height: auto !important;
+}
+
+#progress-bar{
+    width: 100%;
+}
+
+.log_arxius_pujats{
+    width: 100%;
+}
+
+.dm-uploader {
+  margin-top: 20px;
+	border: 0.25rem dashed #A5A5C7 !important;
+	text-align: center !important;
+}
+
+#nom_renombrarFitxer{
+  border: 1px solid black !important;
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contenedor_modal_renombrar_fitxer {
+    text-align: center;
+}
+
+#filtrador{
+  font-size: 19px;
+  height: 40px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input#filtrar {
+  width: 60%;
+  text-align: center;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  margin-top: 13px;
+}
+
+.img_buscar{
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 13px;
+    max-width: 35px;
+    display: inline;
+
+}
+
+.panell_opcions{
+    border: 1px 0px 1px 0px;
+    border-radius: 5px;
+}
+
+.imgOpcions{
+    max-width: 35px;
+}
+.imgOpcions_contra{
+    max-width: 50px;
+    display: inline;
+    margin: -15px;
+}
+
+.gridContainerCarpetes{
+    margin-top: 15px;
+}
+
+
+.th_assignacio{
+    min-height: 40px;
+    width: 95%;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left:25px !important;
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #1ABC9C, #85C1E9);
+    background: -o-linear-gradient(45deg, #1ABC9C, #85C1E9);
+    background: -moz-linear-gradient(45deg, #1ABC9C, #85C1E9);
+    background: linear-gradient(45deg, #1ABC9C, #85C1E9);
+}
+.td_assignacio{
+    min-height: 25px;
+    width: 95%;
+    margin-top: 0px;
+    border: 1px dashed #1ABC9C;
+    border-radius: 5px;
+    margin-left:25px !important;
+    text-align: center;
+    color:#424443;
+    background: #21618C;
+    background: -webkit-linear-gradient(45deg, #D5F5E3, #D6EAF8);
+    background: -o-linear-gradient(45deg, #D5F5E3, #D6EAF8);
+    background: -moz-linear-gradient(45deg, #D5F5E3, #D6EAF8);
+    background: linear-gradient(45deg, #D5F5E3, #D6EAF8);
+    z-index: 5;
+}
+
+.td_assignacio:hover  {
+  transition: 0.4s;
+  -webkit-transform:scale(1.01);
+  transform:scale(1.02);
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background: -webkit-linear-gradient(45deg, #1ABC9C, #85C1E9);
+  background: -o-linear-gradient(45deg, #1ABC9C, #85C1E9);
+  background: -moz-linear-gradient(45deg, #1ABC9C, #85C1E9);
+  background: linear-gradient(45deg, #1ABC9C, #85C1E9);
+  color: black;
+  border: 1px;
+}
+
+.row > .td_assignacio_info{
+    padding: 5px !important;
+    word-wrap: break-word;
+}
+
+.totes_les_contrasenyes, .contrasenya_vista_previa {
+    width: 100%;
+}
+
+.totes_les_contrasenyes{
+    display: none;
+}
+
+.element-directori:hover{
+  background-color: #89C4F2;
+  font-weight: bold;
+  transition: 0.2s;
+
+}
+
+#filtre_contrasenyes{
+    border-image-slice: 1;
+    border-width: 2px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 13px;
+    width: 100%;
+    margin-left: -2px;
+}
+
+input#filtre_contrasenyes {
+  width: 90%;
+  text-align: center;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  margin-top: 13px;
+  font-size: 18px;
+}
+
+.contra_taules{
+
+}
+
+.mida_contra{
+    max-width: 30px;
+}
+
+.btn_eliminarContrasenya, .btn_modificarContrasenya{
+    margin: 0px;
+    margin-left: 8px;
+}
+
+.fixat {
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+    top: 0px;
+    right: 0px !important;
+    right: auto;
+    left: auto;
+    overflow-y: scroll;
+    max-height: 100%;
+}
+
+.user_camp:hover{
+    color: blue;
+}
+
+
+input[type=checkbox].check_bonic + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+input[type=checkbox].check_bonic {
+  display: none;
+}
+
+input[type=checkbox].check_bonic + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+input[type=checkbox].check_bonic + label:active:before {
+  transform: scale(0);
+  
+}
+
+input[type=checkbox].check_bonic:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+.versioAplicacio{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.CodeMirror {
+    height: 90000px !important;
+}
+
+span.span_cuantitat_contrassenyes {
+    border: 2px solid #337ab7;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.div_contador_contrasenyes{
+  text-align: center;
+}
