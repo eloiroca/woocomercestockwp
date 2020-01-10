@@ -6,7 +6,7 @@
   <div class="panel-body">
 			<div class="logo_col col-xs col-sm-fit logo_documental_pluguin">
 					<img src="<?php echo plugins_url("woocomercestockwp/assets/img/logocompsa.png"); ?>" />
-          <?php echo "<br><p class='versioAplicacio'>Versió 1.0</p>" ?>
+          <?php echo "<br><p class='versioAplicacio'>Versió 1.1</p>" ?>
           <?php echo "<br><p class='versioAplicacio'>Desarrollat per Eloi</p>" ?>
 			</div>
   </div>
@@ -34,7 +34,7 @@
 
                 </div>
 
-                
+
 								 <div id="opcions_parametres">
                   <div id="parametres_pluguins">
   										<p class="titol_parametres">Que s'actualitzarà</p>
@@ -43,8 +43,8 @@
                   <ul style="margin-left: 15px;"><li class="li_boleta">Woocomerce Stock Status i Stock Quantity</li></ul>
 
                 </div>
-           
-              
+
+
                 <div id="opcions_parametres">
                   <div id="parametres_pluguins">
   										<p class="titol_parametres">Executar</p>
@@ -67,7 +67,7 @@
                     </div>
                   </div>
 								</div>
-          
+
 
 
 						</div>
