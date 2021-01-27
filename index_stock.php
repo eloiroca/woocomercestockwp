@@ -44,7 +44,7 @@ function executar_importacio(){
     $productesBD =array();
 
     //Agafem el CSV
-    $csv = get_home_url().'/TraspasEstocGesta/Estoc.csv';
+    $csv = get_home_url().'/TraspasEstocGesta/Estoc.csv?'.rand(0,500000);
 
     //Agafem tots els articles amb estoc de la bd i ho fiquem al array productesBD
     $arrayESTOC = array();
