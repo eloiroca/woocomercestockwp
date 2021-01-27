@@ -9,11 +9,11 @@ Author URI:
 License:
 License URI:
 */
-$versio = "1.1.0";
+$versio = "1.2.0";
 
 //Encuarem els estils, JS, etc dins del wordpress
 function encuar_estils_pluguin_stock(){
-    $versio = "1.1.0";
+    $versio = "1.2.0";
     wp_enqueue_style( 'style-compsaonline', plugins_url( 'woocomercestockwp/assets/css/estil_gd.css'), array(), $versio);
 }
 
